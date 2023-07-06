@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1609</width>
+    <height>994</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>1611</width>
+     <height>911</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Label</string>
+    </attribute>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>1101</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout"/>
+    </widget>
+    <widget class="QPushButton" name="open_file_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>10</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open File</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/file.png</normaloff>labelme_lib/icons/file.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="open_dir_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>50</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Open Dir</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/open.png</normaloff>labelme_lib/icons/open.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+O</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="polygon_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>90</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Polygon</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/polygon.png</normaloff>labelme_lib/icons/polygon.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+N</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bbox_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>130</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>BBox</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/bbox.png</normaloff>labelme_lib/icons/bbox.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+R</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="edit_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>210</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Edit</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/edit.png</normaloff>labelme_lib/icons/edit.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+E</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>10</y>
+       <width>281</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="text">
+         <string>Polygon labels</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>190</y>
+       <width>291</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="text">
+         <string>Label List</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>400</y>
+       <width>291</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="text">
+         <string>File List</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="point_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>170</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Point</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/point.png</normaloff>labelme_lib/icons/point.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+P</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="save_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>250</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/save.png</normaloff>labelme_lib/icons/save.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+S</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="undo_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>290</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Undo</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/undo.png</normaloff>labelme_lib/icons/undo.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Ctrl+Z</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="del_btn">
+     <property name="geometry">
+      <rect>
+       <x>1150</x>
+       <y>330</y>
+       <width>93</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Del</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>labelme_lib/icons/cancel.png</normaloff>labelme_lib/icons/cancel.png</iconset>
+     </property>
+     <property name="shortcut">
+      <string>Del</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Train model</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
